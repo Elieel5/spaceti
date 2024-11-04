@@ -233,7 +233,7 @@ body.dark-theme {
   left: 45%;
   width: 5px;
   height: 5px;
-  background-color: var(--title-color);
+  background-color: var(--first-color);
   border-radius: 50%;
 }
 
@@ -256,6 +256,12 @@ body.dark-theme {
 
 .home__description {
   margin-bottom: var(--mb-2);
+}
+
+.main_img{
+  max-width: 100%;
+  height: auto; 
+  flex: 1;
 }
 
 /*=============== BUTTONS ===============*/
